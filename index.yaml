@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  delegate-proxy:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-08-22T23:11:01.358707074Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.x.x
+    - name: harness-common
+      repository: https://harness.github.io/helm-common
+      version: 1.x.x
+    description: A Helm chart for Kubernetes
+    digest: 1763dd1179a771b15b000d5dd47704048925e7b509665c9af1639b77f387701e
+    name: delegate-proxy
+    type: application
+    urls:
+    - https://github.com/harness/helm-delegate-proxy/releases/download/delegate-proxy-0.2.0/delegate-proxy-0.2.0.tgz
+    version: 0.2.0
+generated: "2022-08-22T23:11:01.358724275Z"
