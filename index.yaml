@@ -3,6 +3,20 @@ entries:
   delegate-proxy:
   - apiVersion: v2
     appVersion: 0.0.1
+    created: "2022-09-01T12:38:12.621241567Z"
+    dependencies:
+    - name: harness-common
+      repository: https://harness.github.io/helm-common
+      version: 1.x.x
+    description: A Helm chart for Kubernetes
+    digest: a6aee60b8cc5b74f6d4b5e0f306a0dc0e743c8d84010a7ef527412c2e45f9779
+    name: delegate-proxy
+    type: application
+    urls:
+    - https://github.com/harness/helm-delegate-proxy/releases/download/delegate-proxy-0.2.3/delegate-proxy-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v2
+    appVersion: 0.0.1
     created: "2022-08-29T17:55:28.711468782Z"
     dependencies:
     - name: common
@@ -35,4 +49,4 @@ entries:
     urls:
     - https://github.com/harness/helm-delegate-proxy/releases/download/delegate-proxy-0.2.0/delegate-proxy-0.2.0.tgz
     version: 0.2.0
-generated: "2022-08-29T17:55:28.711485382Z"
+generated: "2022-09-01T12:38:12.621253167Z"
